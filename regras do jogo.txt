@@ -1,7 +1,5 @@
-1 - Cada jogador pega 3 cartas mas sÛ olha uma delas.
-2 - O primeiro jogador dever· selecionar alguma das setas amarelas e movimentar o tabuleiro
-3 - Logo apÛs clicar em uma seta o jogador poder· decidir se ir· se mover ou n„o quantas casas quiser
-4 - O prÛximo jogador n„o poder· colocar a peÁa que foi retirada para a mesma posiÁ„o que estava
-5 - Se um jogador for empurrado para fora do tabuleiro ele entrar· junto com a peÁa que entrar· no outro lado do tabuleiro
-6 - Mais de uma peÁa pode ocupar o mesmo quadrado
-7 - Ganha quem pegar os 3 tesouros e voltar para o quadrado que o player comeÁou o jogo
+Cada jogador tem um personagem, que se move no labirinto. O objetivo do jogador √© recolher tesouros no labirinto e, em seguida, retornar √† sua pr√≥pria posi√ß√£o de partida. Os tesouros aparecem nas cartas que s√£o distribu√≠das aos jogadores no in√≠cio do jogo.
+
+O jogador pode ver apenas o cart√£o que mostra o seu destino atual. O jogador tem que revelar o card quando chegam ao destino, e tomar um novo cart√£o de sua pilha. Os outros jogadores devem notar quando a pilha est√° vazia e, em seguida, geralmente tentar impedir o jogador l√≠der de retornar √† posi√ß√£o inicial. Os jogadores avan√ßados tamb√©m tentar adivinhar destinos de outros jogadores, a fim de fazer o seu processo mais dif√≠cil ou tentar prend√™-los em becos sem sa√≠da.
+
+N√£o h√° limites na movimenta√ß√£o de cada jogador.
