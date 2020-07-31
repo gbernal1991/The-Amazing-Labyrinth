@@ -1,0 +1,10 @@
+- Mudanças Básicas HTML5 (Organizar)
+- Mudanças CSS3 (Organizar)
+
+O que falta?
+
+- Mudanças Básicas HTML5 (Otimizar - Menos linhas)
+- Mudanças CSS3 (Otimizar)
+- Efeito dropDown (jQuery) ao começar o jogo
+- Blink no "Vez do Vermelho"
+- Controle de nao poder ir até um lugar que nao dê para passar

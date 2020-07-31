@@ -1,0 +1,348 @@
+body {
+  background-color: rgb(28, 15, 41);
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#box {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 12px;
+  padding-top: 0px;
+  box-sizing: border-box;
+  color: black;
+  height: 210px;
+  width: 265px;   background-color: white;
+  box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.5);
+  border-radius: 5px;
+}
+
+#msg {
+  font-size: 42px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#divSubMsg {
+  width: 80%;
+  height: 60%;
+  border-radius: 50%;
+}
+
+#subMsg {
+  font-size: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#passarVez {
+  width: 50%;
+  height: 50px;
+  font: 16px 'Open Sans', sans-serif;
+  border-radius: 5px;
+}
+
+#container {
+width: 880px; height: auto; padding:0;margin: 0 auto;
+}
+
+#subContainer {
+  position: absolute;
+  right: 0;
+  /*border: 2px solid darkblue;*/
+  display: inline;
+  width:310px;
+  /*height: 690px;*/
+  height: 180px;
+  margin:2px
+}
+
+#girarCard {
+  width: 30%;
+  height: 85px;
+  font: 16px 'Open Sans', sans-serif; margin-top: 12px;
+  border-radius: 5px;
+}
+
+.player-box {
+  width:40px;
+  height:40px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.player-red {
+  width:14px;
+  height:14px;
+  background-color: red;
+  border-radius: 100%;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+
+.player-yellow {
+  width:14px;
+  height:14px;
+  background-color: yellow;
+  border-radius: 100%;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+
+.player-green {
+  width:14px;
+  height:14px;
+  background-color: green;
+  border-radius: 100%;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+
+.player-blue {
+  width:14px;
+  height:14px;
+  background-color: blue;
+  border-radius: 100%;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+
+.quadrados { 
+	background-color: rgb(28, 15, 41);
+	width: 90px;
+	height: 90px; 
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+.retangulo-h {
+	float: left;
+	width: 90px;
+	height: 32px;
+	background-color: rgb(28, 15, 41);
+}
+
+.triang-b {
+  margin: auto;
+  margin-top: 5px;
+  width: 0;
+  height: 0;
+  border: 15px solid;
+  border-color: yellow transparent transparent transparent;
+}
+
+.triang-c {
+  margin: auto;
+  margin-top: -5px;
+  width: 0;
+  height: 0;
+  border: 15px solid;
+  /*border-bottom-color: yellow;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;*/
+  /*transition: all1400s ease-out-in-out;*/
+}
+
+.retangulo-v {
+	display: block;
+	width: 32px;
+	height: 90px;
+	background-color: rgb(28, 15, 41);
+}
+
+.triang-e {
+  margin: auto;
+  margin-right: 60px;
+  margin-top: 30px;
+  width: 0;
+  height: 0;
+  border: 15px solid;
+  border-color: transparent yellow transparent transparent;
+  /*transition: all1400s ease-out-in-out;*/
+}
+
+.triang-d {
+  margin: auto;
+  margin-left: 60px;
+  margin-top: 30px;
+  width: 0;
+  height: 0;
+  border: 15px solid;
+  border-color: transparent transparent transparent yellow;
+  /*transition: all1400s ease-out-in-out;*/
+}
+
+.esq-baixo {
+  /*transition: all 100ms ease-out;*/
+  border-color: transparent transparent yellow transparent;
+}
+
+.baixo {
+  /*transition: all 100ms ease-out;*/
+  border-color: transparent transparent yellow transparent;
+}
+
+.dir-baixo {
+  /*transition: all 100ms ease-out;*/
+  border-color: transparent transparent yellow transparent;
+}
+
+/* 
+
+HOVER DAS SETAS 
+
+*/
+
+/*.grow { transition: al1 .2s ease-out-in-out; }*/
+.esq-cima:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.dir-cima:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.cima:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.esq-baixo:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+
+.dir-baixo:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.baixo:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.e-cima:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.e-baixo:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.e-meio:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.d-cima:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.d-meio:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}
+
+.d-baixo:hover {
+  -webkit-transition: all 100ms ease-out;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 100ms ease-out;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 100ms ease-out;
+  -moz-transform: scale(1.2);
+  transition: all 100ms ease-out;
+  transform: scale(1.2);
+}

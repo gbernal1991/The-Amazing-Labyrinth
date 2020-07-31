@@ -1,0 +1,7 @@
+1 - Cada jogador pega 3 cartas mas só olha uma delas.
+2 - O primeiro jogador deverá selecionar alguma das setas amarelas e movimentar o tabuleiro
+3 - Logo após clicar em uma seta o jogador poderá decidir se irá se mover ou não quantas casas quiser
+4 - O próximo jogador não poderá colocar a peça que foi retirada para a mesma posição que estava
+5 - Se um jogador for empurrado para fora do tabuleiro ele entrará junto com a peça que entrará no outro lado do tabuleiro
+6 - Mais de uma peça pode ocupar o mesmo quadrado
+7 - Ganha quem pegar os 3 tesouros e voltar para o quadrado que o player começou o jogo

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amazing Labyrinth</title>
+
+  <meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- MENSAGENS E INFORMACOES PARA PLAYERS E BOTAO 'PASSAR VEZ' -->
+	<div class="container-fluid">
+		<div style="position: absolute">
+      <br><br>
+      <div id="box">
+          <b id="msg"></b>
+
+        <br>
+
+        <div id="divSubMsg">
+          <center><b id="subMsg">MOVA O TABULEIRO</b></center>
+        </div>
+
+        <br>
+        
+      </div>
+
+      <br>
+
+      <!-- BOTAO -->
+      <center><button id="passarVez"><b>Passar Turno</b></button></center>
+
+		</div>
+
+
+  <!-- TABULEIRO -->
+	<div id='container'>
+ 	</div>
+
+  <!-- CARD SOBRANTE E BOTAO GIRAR -->
+ 	<div id="subContainer">
+    <br><button id="girarCard"><i class="fas fa-redo-alt"></i></button>
+	</div>
+
+ 	</div>
+
+</body>
+<script src="script.js"></script>
+</html>
